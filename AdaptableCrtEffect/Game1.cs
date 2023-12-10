@@ -22,16 +22,16 @@ namespace AdaptableCrtEffect
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
 
-            _graphics.PreferredBackBufferWidth = 1920;
-            _graphics.PreferredBackBufferHeight = 1080;
+            _graphics.PreferredBackBufferWidth = 1280;
+            _graphics.PreferredBackBufferHeight = 720;
         }
 
         protected override void Initialize()
         {
-            PostProcessingHelper.BaseWidth = 384;
-            PostProcessingHelper.BaseHeight = 216;
-            PostProcessingHelper.PresentationWidth = 1920;
-            PostProcessingHelper.PresentationHeight = 1080;
+            PostProcessingHelper.BaseWidth = 320;
+            PostProcessingHelper.BaseHeight = 180;
+            PostProcessingHelper.PresentationWidth = 1280;
+            PostProcessingHelper.PresentationHeight = 720;
 
             base.Initialize();
         }
@@ -139,7 +139,7 @@ namespace AdaptableCrtEffect
             if (!string.IsNullOrEmpty(_text))
             {
                 _spriteBatch.Begin();
-                _spriteBatch.DrawString(_font, _text, new Vector2(300, 40), Color.White);
+                _spriteBatch.DrawString(_font, _text, new Vector2(40, 40), Color.White);
                 _spriteBatch.End();
             }
         }
