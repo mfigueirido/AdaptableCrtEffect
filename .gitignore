@@ -1,0 +1,12 @@
+*.user
+*.aeproperties
+.vs/
+*.tmp
+*.cachefile
+*.csvSettings
+*.sln.metaproj
+packages/
+AdaptableCrtEffect/bin/
+AdaptableCrtEffect/obj/
+AdaptableCrtEffect/Content/bin/
+AdaptableCrtEffect/Content/obj/
