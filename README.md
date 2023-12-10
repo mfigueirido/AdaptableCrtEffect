@@ -43,5 +43,5 @@ PostProcessingHelper.PresentationHeight = 216;
 
 ## One last thing ##
 
-This sample includes a picure of my team's current game in development **Deadvivors**. If you're curious about it, take a look here :)
+This sample includes a picure of my team's current game in development: **Deadvivors**. If you're curious about it, take a look here :)
 https://twitter.com/EnxebreGames
