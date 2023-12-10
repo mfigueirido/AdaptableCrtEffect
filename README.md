@@ -6,7 +6,7 @@ But what would happen if you were developing a modern pixel art game which outpu
 
 ## Why render a pixel art game at a resolution bigger than the art itself? ##
 
-There's one big benefit with this approach and that is everything that moves in your game will look super smooth. Your camera, caracters, animations of all kinds, particle effects... they all would benefit from the extra "subpixels" in between and remove all kinds of jitter.
+There's one big benefit with this approach and that is everything that moves in your game will look super smooth. Your camera, characters, animations of all kinds, particle effects... they all would benefit from the extra "subpixels" in between and remove all kinds of jitter.
 
 It's true that retro purists might not like this approach because you are allowing some pixels to not align to the grid, and that can be distracting. One way to lessen this effect is by simply snapping to the grid your game entities when they stop moving. If your game is slow paced this would probably look great and you'll have the best of both worlds.
 The great Pedro Medeiros has some advice about this topic:
