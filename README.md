@@ -18,7 +18,7 @@ https://saint11.org/blog/consistency/
 - Does a bloom pass before the CRT gets applied.
 - Supports the following CRT presets: full scanlines, soft scanlines, no scanlines, no scanlines + no curvature (this only does CRT smoothing) and disabled.
 - Includes a subtle pass of chromatic aberration.
-- If you disable the CRT effect a subtle border smoothing will still be applied to reduce the harshness of the pixels. This can be disabled as well.
+- If you disable the CRT effect a subtle border smoothing pass will still be applied to reduce the harshness of the pixels. This can be disabled as well.
 
 ## How to set it up ##
 
