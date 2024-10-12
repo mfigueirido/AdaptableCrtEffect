@@ -334,7 +334,8 @@ namespace AdaptableCrtEffect
             BloomScreenTexture = source;
 
             int clientScale = (int)Math.Ceiling((float)PostProcessingHelper.PresentationHeight / PostProcessingHelper.BaseHeight);
-            HalfPixel = new Vector2(1.0f / PostProcessingHelper.PresentationWidth, 1.0f / PostProcessingHelper.PresentationHeight) / clientScale;
+            //HalfPixel = new Vector2(1.0f / GraphicsManager.InternalWidth, 1.0f / GraphicsManager.InternalHeight) / GraphicsManager.ClientScale;
+            HalfPixel = Vector2.Zero; // Half pixel offset creates misaligned bloom since switching to a new MonoGame version
             BloomInverseResolution = new Vector2(1.0f / PostProcessingHelper.PresentationWidth, 1.0f / PostProcessingHelper.PresentationHeight);
 
             device.SamplerStates[0] = SamplerState.LinearClamp;
